@@ -1,0 +1,15 @@
+.DS_Store
+node_modules/
+demo/vue-graphql-client/dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+demo/vue-graphql-client/test/unit/coverage/
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
