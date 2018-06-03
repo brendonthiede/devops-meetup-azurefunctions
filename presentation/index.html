@@ -7,7 +7,7 @@
 
     <link rel="icon" type="image/png" href="images/graphql.png">
 
-    <title>GraphQL - Lansing JS Meetup</title>
+    <title>Azure Functions - DevOps Meetup</title>
 
     <link rel="stylesheet" href="css/reveal.css">
     <link rel="stylesheet" href="css/theme/night.css">
@@ -29,8 +29,8 @@
     <div class="reveal">
         <div class="slides">
             <section>
-                <h1>Azure Functions:</h1>
-                <h2>Serverless development concepts</h2>
+                <h2>Azure Functions:</h2>
+                <h3>Serverless development concepts</h3>
                 <p style="text-align: right;">Lansing DevOps Meetup
                     <br> June 5th, 2018</p>
             </section>
@@ -43,8 +43,69 @@
                 </ul>
             </section>
             <section>
-                <img src="" alt="The Borg">
-                
+                <img src="images/annoyingwindows.gif" alt="Overload">
+                <p>Now I am assimilated...</p>
+            </section>
+            <section>
+                <h2>Topics</h2>
+                <ul>
+                    <li>Azure ARM Template</li>
+                    <li>Runtime/Framework version compatibility</li>
+                    <li>Build definition YAML</li>
+                    <li>Function annotations</li>
+                    <li>Bindings</li>
+                    <li>Dependency Injection</li>
+                    <li>Testing</li>
+                    <li>Tracing</li>
+                    <li>Demo</li>
+                </ul>
+            </section>
+            <section>
+                <h2>Function Infrastructure</h2>
+                <ul>
+                    <li>App Service Plan (Consumption or Dedicated)</li>
+                    <li>App Service (Function type)
+                        <ul>
+                            <li>Application Settings (Environment Variables)</li>
+                        </ul>
+                    </li>
+                    <li>Storage Account</li>
+                    <li>Application Insights (Optional)</li>
+                </ul>
+            </section>
+            <section>
+                <h2>Function Runtime</h2>
+                <ul>
+                    <li>1.x - Fully Supported</li>
+                    <li>2.x - Beta</li>
+                </ul>
+            </section>
+            <section>
+                <h2>Language</h2>
+                <ul>
+                    <li>C# (Precompiled class library or script)
+                        <ul>
+                            <li>.NET Framework 4.6</li>
+                            <li>.NET Standard</li>
+                        </ul>
+                    </li>
+                    <li>JavaScript</li>
+                    <li>F#</li>
+                </ul>
+                <p style="text-align: right">
+                    <small>More at:
+                        <a href="https://docs.microsoft.com/en-us/azure/azure-functions/supported-languages">https://docs.microsoft.com/en-us/azure/azure-functions/supported-languages</a>
+                    </small>
+                </p>
+            </section>
+            <section>
+                <h2>My Secret Sauce</h2>
+                <ul>
+                    <li>.NET Standard 2.0</li>
+                    <li>Precompiled</li>
+                    <li>2.x (Beta) Function Runtime</li>
+                    <li>Consumption Plan</li>
+                </ul>
             </section>
         </div>
     </div>
